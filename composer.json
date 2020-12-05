@@ -12,7 +12,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "SRP\\": "app/SingleResponsibility/"
+            "SRP\\": "app/SingleResponsibility/",
+            "OCP\\": "app/OpenClosed/"
         }
     }
 }
