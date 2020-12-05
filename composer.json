@@ -13,7 +13,8 @@
     "autoload": {
         "psr-4": {
             "SRP\\": "app/SingleResponsibility/",
-            "OCP\\": "app/OpenClosed/"
+            "OCP\\": "app/OpenClosed/",
+            "LSP\\": "app/LiskovSubstitution/"
         }
     }
 }
