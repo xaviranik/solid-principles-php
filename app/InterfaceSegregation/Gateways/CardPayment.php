@@ -1,18 +1,18 @@
 <?php
 
 
-namespace LSP\Gateways;
+namespace ISP\Gateways;
 
 
-use LSP\Contracts\CardValidatorInterface;
-use LSP\Contracts\FraudCheckerInterface;
-use LSP\Contracts\PaymentProcessorInterface;
-use LSP\Contracts\StandardPaymentInterface;
+use ISP\Contracts\CardValidatorInterface;
+use ISP\Contracts\FraudCheckerInterface;
+use ISP\Contracts\PaymentProcessorInterface;
+use ISP\Contracts\StandardPaymentInterface;
 
 /**
  * Class CardPayment
  *
- * @package LSP\Gateways
+ * @package ISP\Gateways
  */
 class CardPayment implements StandardPaymentInterface, FraudCheckerInterface, CardValidatorInterface, PaymentProcessorInterface
 {

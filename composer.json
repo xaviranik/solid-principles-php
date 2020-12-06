@@ -14,7 +14,8 @@
         "psr-4": {
             "SRP\\": "app/SingleResponsibility/",
             "OCP\\": "app/OpenClosed/",
-            "LSP\\": "app/LiskovSubstitution/"
+            "LSP\\": "app/LiskovSubstitution/",
+            "ISP\\": "app/InterfaceSegregation/"
         }
     }
 }

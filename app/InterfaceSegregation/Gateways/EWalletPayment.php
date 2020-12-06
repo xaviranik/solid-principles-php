@@ -1,17 +1,17 @@
 <?php
 
 
-namespace LSP\Gateways;
+namespace ISP\Gateways;
 
 
-use LSP\Contracts\FraudCheckerInterface;
-use LSP\Contracts\PaymentProcessorInterface;
-use LSP\Contracts\StandardPaymentInterface;
+use ISP\Contracts\FraudCheckerInterface;
+use ISP\Contracts\PaymentProcessorInterface;
+use ISP\Contracts\StandardPaymentInterface;
 
 /**
  * Class EWalletPayment
  *
- * @package LSP\Gateways
+ * @package ISP\Gateways
  */
 class EWalletPayment implements StandardPaymentInterface, FraudCheckerInterface, PaymentProcessorInterface
 {

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace LSP\Contracts;
+namespace ISP\Contracts;
 
 
 interface PaymentProcessorInterface

@@ -1,12 +1,12 @@
 <?php
 
 
-namespace LSP\Contracts;
+namespace ISP\Contracts;
 
 /**
  * Interface FraudCheckerInterface
  *
- * @package LSP\Contracts
+ * @package ISP\Contracts
  */
 interface FraudCheckerInterface
 {

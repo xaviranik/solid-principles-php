@@ -1,20 +1,20 @@
 <?php
 
 
-namespace LSP;
+namespace ISP;
 
-use LSP\Contracts\PaymentProcessorInterface;
+use ISP\Contracts\PaymentProcessorInterface;
 
 /**
  * Class PaymentGateway
  *
- * @package LSP
+ * @package ISP
  */
 class PaymentGateway
 {
 
     /**
-     * @param  \LSP\Contracts\PaymentProcessorInterface  $gateway
+     * @param  \ISP\Contracts\PaymentProcessorInterface  $gateway
      */
     public function handlePayment(PaymentProcessorInterface $gateway)
     {

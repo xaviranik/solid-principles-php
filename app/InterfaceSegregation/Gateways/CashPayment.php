@@ -1,16 +1,16 @@
 <?php
 
 
-namespace LSP\Gateways;
+namespace ISP\Gateways;
 
 
-use LSP\Contracts\PaymentProcessorInterface;
-use LSP\Contracts\StandardPaymentInterface;
+use ISP\Contracts\PaymentProcessorInterface;
+use ISP\Contracts\StandardPaymentInterface;
 
 /**
  * Class CashPayment
  *
- * @package LSP\Gateways
+ * @package ISP\Gateways
  */
 class CashPayment implements StandardPaymentInterface, PaymentProcessorInterface
 {
