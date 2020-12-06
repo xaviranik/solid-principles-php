@@ -15,7 +15,8 @@
             "SRP\\": "app/SingleResponsibility/",
             "OCP\\": "app/OpenClosed/",
             "LSP\\": "app/LiskovSubstitution/",
-            "ISP\\": "app/InterfaceSegregation/"
+            "ISP\\": "app/InterfaceSegregation/",
+            "DIP\\": "app/DependencyInversion/"
         }
     }
 }
